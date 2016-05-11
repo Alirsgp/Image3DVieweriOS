@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7FFF97F1CE3E0360062140E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFF97E1CE3E0360062140E /* AppDelegate.swift */; };
+		D7FFF9811CE3E0360062140E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFF9801CE3E0360062140E /* ViewController.swift */; };
+		D7FFF9841CE3E0360062140E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FFF9821CE3E0360062140E /* Main.storyboard */; };
+		D7FFF9871CE3E0360062140E /* MyCarousel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7FFF9851CE3E0360062140E /* MyCarousel.xcdatamodeld */; };
+		D7FFF9891CE3E0360062140E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FFF9881CE3E0360062140E /* Assets.xcassets */; };
+		D7FFF98C1CE3E0360062140E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FFF98A1CE3E0360062140E /* LaunchScreen.storyboard */; };
+		D7FFF9971CE3E0360062140E /* MyCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFF9961CE3E0360062140E /* MyCarouselTests.swift */; };
+		D7FFF9A21CE3E0360062140E /* MyCarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFF9A11CE3E0360062140E /* MyCarouselUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7FFF9931CE3E0360062140E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FFF9731CE3E0360062140E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FFF97A1CE3E0360062140E;
+			remoteInfo = MyCarousel;
+		};
+		D7FFF99E1CE3E0360062140E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7FFF9731CE3E0360062140E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7FFF97A1CE3E0360062140E;
+			remoteInfo = MyCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7FFF97B1CE3E0360062140E /* MyCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FFF97E1CE3E0360062140E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7FFF9801CE3E0360062140E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7FFF9831CE3E0360062140E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7FFF9861CE3E0360062140E /* MyCarousel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCarousel.xcdatamodel; sourceTree = "<group>"; };
+		D7FFF9881CE3E0360062140E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FFF98B1CE3E0360062140E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7FFF98D1CE3E0360062140E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FFF9921CE3E0360062140E /* MyCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FFF9961CE3E0360062140E /* MyCarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarouselTests.swift; sourceTree = "<group>"; };
+		D7FFF9981CE3E0360062140E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FFF99D1CE3E0360062140E /* MyCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FFF9A11CE3E0360062140E /* MyCarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarouselUITests.swift; sourceTree = "<group>"; };
+		D7FFF9A31CE3E0360062140E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FFF9781CE3E0360062140E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FFF98F1CE3E0360062140E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FFF99A1CE3E0360062140E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7FFF9721CE3E0360062140E = {
+			isa = PBXGroup;
+			children = (
+				D7FFF97D1CE3E0360062140E /* MyCarousel */,
+				D7FFF9951CE3E0360062140E /* MyCarouselTests */,
+				D7FFF9A01CE3E0360062140E /* MyCarouselUITests */,
+				D7FFF97C1CE3E0360062140E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FFF97C1CE3E0360062140E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FFF97B1CE3E0360062140E /* MyCarousel.app */,
+				D7FFF9921CE3E0360062140E /* MyCarouselTests.xctest */,
+				D7FFF99D1CE3E0360062140E /* MyCarouselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FFF97D1CE3E0360062140E /* MyCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				D7FFF97E1CE3E0360062140E /* AppDelegate.swift */,
+				D7FFF9801CE3E0360062140E /* ViewController.swift */,
+				D7FFF9821CE3E0360062140E /* Main.storyboard */,
+				D7FFF9881CE3E0360062140E /* Assets.xcassets */,
+				D7FFF98A1CE3E0360062140E /* LaunchScreen.storyboard */,
+				D7FFF98D1CE3E0360062140E /* Info.plist */,
+				D7FFF9851CE3E0360062140E /* MyCarousel.xcdatamodeld */,
+			);
+			path = MyCarousel;
+			sourceTree = "<group>";
+		};
+		D7FFF9951CE3E0360062140E /* MyCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7FFF9961CE3E0360062140E /* MyCarouselTests.swift */,
+				D7FFF9981CE3E0360062140E /* Info.plist */,
+			);
+			path = MyCarouselTests;
+			sourceTree = "<group>";
+		};
+		D7FFF9A01CE3E0360062140E /* MyCarouselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7FFF9A11CE3E0360062140E /* MyCarouselUITests.swift */,
+				D7FFF9A31CE3E0360062140E /* Info.plist */,
+			);
+			path = MyCarouselUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FFF97A1CE3E0360062140E /* MyCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FFF9A61CE3E0360062140E /* Build configuration list for PBXNativeTarget "MyCarousel" */;
+			buildPhases = (
+				D7FFF9771CE3E0360062140E /* Sources */,
+				D7FFF9781CE3E0360062140E /* Frameworks */,
+				D7FFF9791CE3E0360062140E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCarousel;
+			productName = MyCarousel;
+			productReference = D7FFF97B1CE3E0360062140E /* MyCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7FFF9911CE3E0360062140E /* MyCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FFF9A91CE3E0360062140E /* Build configuration list for PBXNativeTarget "MyCarouselTests" */;
+			buildPhases = (
+				D7FFF98E1CE3E0360062140E /* Sources */,
+				D7FFF98F1CE3E0360062140E /* Frameworks */,
+				D7FFF9901CE3E0360062140E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7FFF9941CE3E0360062140E /* PBXTargetDependency */,
+			);
+			name = MyCarouselTests;
+			productName = MyCarouselTests;
+			productReference = D7FFF9921CE3E0360062140E /* MyCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7FFF99C1CE3E0360062140E /* MyCarouselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FFF9AC1CE3E0360062140E /* Build configuration list for PBXNativeTarget "MyCarouselUITests" */;
+			buildPhases = (
+				D7FFF9991CE3E0360062140E /* Sources */,
+				D7FFF99A1CE3E0360062140E /* Frameworks */,
+				D7FFF99B1CE3E0360062140E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7FFF99F1CE3E0360062140E /* PBXTargetDependency */,
+			);
+			name = MyCarouselUITests;
+			productName = MyCarouselUITests;
+			productReference = D7FFF99D1CE3E0360062140E /* MyCarouselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FFF9731CE3E0360062140E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ali Mohammadian";
+				TargetAttributes = {
+					D7FFF97A1CE3E0360062140E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D7FFF9911CE3E0360062140E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D7FFF97A1CE3E0360062140E;
+					};
+					D7FFF99C1CE3E0360062140E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D7FFF97A1CE3E0360062140E;
+					};
+				};
+			};
+			buildConfigurationList = D7FFF9761CE3E0360062140E /* Build configuration list for PBXProject "MyCarousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FFF9721CE3E0360062140E;
+			productRefGroup = D7FFF97C1CE3E0360062140E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FFF97A1CE3E0360062140E /* MyCarousel */,
+				D7FFF9911CE3E0360062140E /* MyCarouselTests */,
+				D7FFF99C1CE3E0360062140E /* MyCarouselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FFF9791CE3E0360062140E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FFF98C1CE3E0360062140E /* LaunchScreen.storyboard in Resources */,
+				D7FFF9891CE3E0360062140E /* Assets.xcassets in Resources */,
+				D7FFF9841CE3E0360062140E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FFF9901CE3E0360062140E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FFF99B1CE3E0360062140E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FFF9771CE3E0360062140E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FFF9871CE3E0360062140E /* MyCarousel.xcdatamodeld in Sources */,
+				D7FFF9811CE3E0360062140E /* ViewController.swift in Sources */,
+				D7FFF97F1CE3E0360062140E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FFF98E1CE3E0360062140E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FFF9971CE3E0360062140E /* MyCarouselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FFF9991CE3E0360062140E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FFF9A21CE3E0360062140E /* MyCarouselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7FFF9941CE3E0360062140E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7FFF97A1CE3E0360062140E /* MyCarousel */;
+			targetProxy = D7FFF9931CE3E0360062140E /* PBXContainerItemProxy */;
+		};
+		D7FFF99F1CE3E0360062140E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7FFF97A1CE3E0360062140E /* MyCarousel */;
+			targetProxy = D7FFF99E1CE3E0360062140E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7FFF9821CE3E0360062140E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FFF9831CE3E0360062140E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7FFF98A1CE3E0360062140E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7FFF98B1CE3E0360062140E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7FFF9A41CE3E0360062140E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7FFF9A51CE3E0360062140E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FFF9A71CE3E0360062140E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliMohammadian.MyCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7FFF9A81CE3E0360062140E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliMohammadian.MyCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7FFF9AA1CE3E0360062140E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliMohammadian.MyCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCarousel.app/MyCarousel";
+			};
+			name = Debug;
+		};
+		D7FFF9AB1CE3E0360062140E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliMohammadian.MyCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCarousel.app/MyCarousel";
+			};
+			name = Release;
+		};
+		D7FFF9AD1CE3E0360062140E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliMohammadian.MyCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCarousel;
+			};
+			name = Debug;
+		};
+		D7FFF9AE1CE3E0360062140E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AliMohammadian.MyCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyCarousel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FFF9761CE3E0360062140E /* Build configuration list for PBXProject "MyCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FFF9A41CE3E0360062140E /* Debug */,
+				D7FFF9A51CE3E0360062140E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FFF9A61CE3E0360062140E /* Build configuration list for PBXNativeTarget "MyCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FFF9A71CE3E0360062140E /* Debug */,
+				D7FFF9A81CE3E0360062140E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7FFF9A91CE3E0360062140E /* Build configuration list for PBXNativeTarget "MyCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FFF9AA1CE3E0360062140E /* Debug */,
+				D7FFF9AB1CE3E0360062140E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7FFF9AC1CE3E0360062140E /* Build configuration list for PBXNativeTarget "MyCarouselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FFF9AD1CE3E0360062140E /* Debug */,
+				D7FFF9AE1CE3E0360062140E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7FFF9851CE3E0360062140E /* MyCarousel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7FFF9861CE3E0360062140E /* MyCarousel.xcdatamodel */,
+			);
+			currentVersion = D7FFF9861CE3E0360062140E /* MyCarousel.xcdatamodel */;
+			path = MyCarousel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7FFF9731CE3E0360062140E /* Project object */;
+}
